@@ -28,6 +28,7 @@ Sender or Receiver. Choose which tutorial to run by using these profiles:
 - {tut4|routing},{sender|receiver}
 - {tut5|topics},{sender|receiver}
 - {tut6|rpc},{client|server}
+- {tut7|reply},{client|server}
 
 After building with maven, run the app however you like to run boot apps.
 
@@ -49,7 +50,7 @@ java -jar target/rabbit-tutorials-*.jar --spring.profiles.active=work-queues,rec
 java -jar target/rabbit-tutorials-*.jar --spring.profiles.active=work-queues,sender
 ```
 
-For tutorial 6, run the server followed by the client.
+For tutorials 6-7, run the server followed by the client.
 
 ##C onfiguration
 
