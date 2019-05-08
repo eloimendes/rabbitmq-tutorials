@@ -51,6 +51,8 @@ public class RabbitAmqpTutorialsApplication {
 			System.out.println("java -jar rabbit-tutorials.jar --spring.profiles.active=rpc,server");
 			System.out.println("java -jar rabbit-tutorials.jar --spring.profiles.active=reply,client");
 			System.out.println("java -jar rabbit-tutorials.jar --spring.profiles.active=reply,server");
+			System.out.println("java -jar rabbit-tutorials.jar --spring.profiles.active=reply2,client");
+			System.out.println("java -jar rabbit-tutorials.jar --spring.profiles.active=reply2,server");
 		};
 	}
 
